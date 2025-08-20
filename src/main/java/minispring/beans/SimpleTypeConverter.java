@@ -61,7 +61,7 @@ public class SimpleTypeConverter implements TypeConverter {
 
     @Override
     @SuppressWarnings("unchecked")
-    public <T> T converter(Object value, Class<T> requiredType) throws TypeMismatchException {
+    public <T> T convert(Object value, Class<T> requiredType) throws TypeMismatchException {
         if (value == null) {
             return null;
         }

@@ -16,5 +16,5 @@ public interface TypeConverter {
      * @param <T> 目标类型
      * @throws TypeMismatchException 如果转换失败
      */
-    <T> T converter(Object value, Class<T> requiredType) throws TypeMismatchException;
+    <T> T convert(Object value, Class<T> requiredType) throws TypeMismatchException;
 }
