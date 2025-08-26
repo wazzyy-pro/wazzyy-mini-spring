@@ -1,6 +1,6 @@
-package minispring.beans;
+package minispring.beans.factory;
 
-import minispring.beans.factory.BeanFactory;
+import minispring.beans.BeansException;
 
 import java.util.Map;
 

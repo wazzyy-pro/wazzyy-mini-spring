@@ -1,7 +1,6 @@
 package minispring.beans.factory;
 
 import minispring.beans.BeansException;
-import minispring.beans.ListableBeanFactory;
 import minispring.beans.factory.config.BeanDefinition;
 import minispring.beans.factory.config.BeanPostProcessor;
 
